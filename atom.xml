@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.datanewbier.com/"/>
-  <updated>2018-08-28T13:00:28.405Z</updated>
+  <updated>2018-08-28T13:05:04.517Z</updated>
   <id>http://www.datanewbier.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随笔</title>
+    <link href="http://www.datanewbier.com/2018/08/28/%E9%9A%8F%E7%AC%94/"/>
+    <id>http://www.datanewbier.com/2018/08/28/随笔/</id>
+    <published>2018-08-28T13:05:04.000Z</published>
+    <updated>2018-08-28T13:05:04.517Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>diary</title>
