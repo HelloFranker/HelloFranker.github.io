@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.datanewbier.com/"/>
-  <updated>2018-08-27T12:43:39.550Z</updated>
+  <updated>2018-08-28T13:00:28.405Z</updated>
   <id>http://www.datanewbier.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>diary</title>
+    <link href="http://www.datanewbier.com/2018/08/28/diary/"/>
+    <id>http://www.datanewbier.com/2018/08/28/diary/</id>
+    <published>2018-08-28T13:00:28.000Z</published>
+    <updated>2018-08-28T13:00:28.405Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>coding</title>
+    <link href="http://www.datanewbier.com/2018/08/28/coding/"/>
+    <id>http://www.datanewbier.com/2018/08/28/coding/</id>
+    <published>2018-08-28T13:00:09.000Z</published>
+    <updated>2018-08-28T13:00:09.920Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ML</title>
+    <link href="http://www.datanewbier.com/2018/08/28/ML/"/>
+    <id>http://www.datanewbier.com/2018/08/28/ML/</id>
+    <published>2018-08-28T12:59:45.000Z</published>
+    <updated>2018-08-28T12:59:45.074Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Reading</title>
+    <link href="http://www.datanewbier.com/2018/08/28/Reading/"/>
+    <id>http://www.datanewbier.com/2018/08/28/Reading/</id>
+    <published>2018-08-28T12:59:23.000Z</published>
+    <updated>2018-08-28T12:59:23.755Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>计算机与生活</title>
