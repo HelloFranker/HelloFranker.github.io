@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://www.datanewbier.com/blog/"/>
-  <updated>2018-08-29T03:11:24.911Z</updated>
+  <updated>2018-08-29T03:34:55.302Z</updated>
   <id>http://www.datanewbier.com/blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.datanewbier.com/blog/2018/08/29/data-mining/"/>
     <id>http://www.datanewbier.com/blog/2018/08/29/data-mining/</id>
     <published>2018-08-29T03:09:51.000Z</published>
-    <updated>2018-08-29T03:11:24.911Z</updated>
+    <updated>2018-08-29T03:34:55.302Z</updated>
     
     <content type="html"><![CDATA[<p>我的数据挖掘之旅</p>]]></content>
     
@@ -36,7 +36,7 @@
     </summary>
     
     
-      <category term="DM" scheme="http://www.datanewbier.com/blog/tags/DM/"/>
+      <category term="DataMining" scheme="http://www.datanewbier.com/blog/tags/DataMining/"/>
     
   </entry>
   
@@ -45,7 +45,7 @@
     <link href="http://www.datanewbier.com/blog/2018/08/28/%E9%9A%8F%E7%AC%94/"/>
     <id>http://www.datanewbier.com/blog/2018/08/28/随笔/</id>
     <published>2018-08-28T13:05:04.000Z</published>
-    <updated>2018-08-29T02:59:33.289Z</updated>
+    <updated>2018-08-29T03:32:48.599Z</updated>
     
     <content type="html"><![CDATA[<p> 今天是2018年8月29日，星期三</p>]]></content>
     
@@ -60,31 +60,7 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://www.datanewbier.com/blog/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>diary</title>
-    <link href="http://www.datanewbier.com/blog/2018/08/28/diary/"/>
-    <id>http://www.datanewbier.com/blog/2018/08/28/diary/</id>
-    <published>2018-08-28T13:00:28.000Z</published>
-    <updated>2018-08-29T02:57:19.545Z</updated>
-    
-    <content type="html"><![CDATA[<p> this is diary!</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt; this is diary!&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="diary" scheme="http://www.datanewbier.com/blog/tags/diary/"/>
+      <category term="Note" scheme="http://www.datanewbier.com/blog/tags/Note/"/>
     
   </entry>
   
@@ -93,14 +69,14 @@
     <link href="http://www.datanewbier.com/blog/2018/08/28/coding/"/>
     <id>http://www.datanewbier.com/blog/2018/08/28/coding/</id>
     <published>2018-08-28T13:00:09.000Z</published>
-    <updated>2018-08-29T02:56:11.853Z</updated>
+    <updated>2018-08-29T03:31:01.023Z</updated>
     
     <summary type="html">
     
     </summary>
     
     
-      <category term="coding" scheme="http://www.datanewbier.com/blog/tags/coding/"/>
+      <category term="Coding" scheme="http://www.datanewbier.com/blog/tags/Coding/"/>
     
   </entry>
   
@@ -109,7 +85,7 @@
     <link href="http://www.datanewbier.com/blog/2018/08/28/ML/"/>
     <id>http://www.datanewbier.com/blog/2018/08/28/ML/</id>
     <published>2018-08-28T12:59:45.000Z</published>
-    <updated>2018-08-29T02:58:24.309Z</updated>
+    <updated>2018-08-29T03:32:23.556Z</updated>
     
     <content type="html"><![CDATA[<p> this is ML !</p>]]></content>
     
@@ -124,7 +100,7 @@
     </summary>
     
     
-      <category term="ML" scheme="http://www.datanewbier.com/blog/tags/ML/"/>
+      <category term="MachineLearning" scheme="http://www.datanewbier.com/blog/tags/MachineLearning/"/>
     
   </entry>
   
@@ -149,7 +125,7 @@
     <link href="http://www.datanewbier.com/blog/2018/08/27/computer-life/"/>
     <id>http://www.datanewbier.com/blog/2018/08/27/computer-life/</id>
     <published>2018-08-27T12:14:01.000Z</published>
-    <updated>2018-08-29T02:54:31.776Z</updated>
+    <updated>2018-08-29T03:31:18.365Z</updated>
     
     <content type="html"><![CDATA[<p>不知道什么时候确立与计算机打交道，大一大二没有想过以后自己未来的职业方向，大三考研的时候才确立考计算机的研究生，自己慢慢的才走上计算机的道路上。<br>时至今日，感觉自己在IT和程序员的道路上越走越远，说不上特别喜欢，内心一直崇拜位置和神奇的事物，在我看来编程开发软件，写几行命令就可以实现很多意想不到的功能，这看起来确实在神奇不过了。<br>这也算是比较喜欢干的事吧，好好干吧，相信自己。</p>]]></content>
     
@@ -163,7 +139,7 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://www.datanewbier.com/blog/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="Note" scheme="http://www.datanewbier.com/blog/tags/Note/"/>
     
   </entry>
   
@@ -172,7 +148,7 @@
     <link href="http://www.datanewbier.com/blog/2018/08/27/hello-world/"/>
     <id>http://www.datanewbier.com/blog/2018/08/27/hello-world/</id>
     <published>2018-08-27T11:38:28.258Z</published>
-    <updated>2018-08-29T02:57:55.717Z</updated>
+    <updated>2018-08-29T03:32:07.519Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -186,7 +162,7 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://www.datanewbier.com/blog/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="Note" scheme="http://www.datanewbier.com/blog/tags/Note/"/>
     
   </entry>
   
