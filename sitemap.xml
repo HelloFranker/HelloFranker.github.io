@@ -2,37 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.datanewbier.com/blog/2018/08/29/data-mining/</loc>
+    
+    <lastmod>2018-08-29T03:11:24.911Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.datanewbier.com/blog/2018/08/28/%E9%9A%8F%E7%AC%94/</loc>
     
-    <lastmod>2018-08-28T13:05:04.517Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.datanewbier.com/blog/2018/08/28/diary/</loc>
-    
-    <lastmod>2018-08-28T13:00:28.405Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.datanewbier.com/blog/2018/08/28/coding/</loc>
-    
-    <lastmod>2018-08-28T13:00:09.920Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.datanewbier.com/blog/2018/08/28/ML/</loc>
-    
-    <lastmod>2018-08-28T12:59:45.074Z</lastmod>
+    <lastmod>2018-08-29T02:59:33.289Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.datanewbier.com/blog/2018/08/28/Reading/</loc>
     
-    <lastmod>2018-08-28T12:59:23.755Z</lastmod>
+    <lastmod>2018-08-29T02:58:37.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.datanewbier.com/blog/2018/08/28/ML/</loc>
+    
+    <lastmod>2018-08-29T02:58:24.309Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.datanewbier.com/blog/2018/08/27/hello-world/</loc>
+    
+    <lastmod>2018-08-29T02:57:55.717Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.datanewbier.com/blog/2018/08/28/diary/</loc>
+    
+    <lastmod>2018-08-29T02:57:19.545Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.datanewbier.com/blog/2018/08/28/coding/</loc>
+    
+    <lastmod>2018-08-29T02:56:11.853Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.datanewbier.com/blog/2018/08/27/computer-life/</loc>
+    
+    <lastmod>2018-08-29T02:54:31.776Z</lastmod>
     
   </url>
   
@@ -40,20 +61,6 @@
     <loc>http://www.datanewbier.com/blog/about/index.html</loc>
     
     <lastmod>2018-08-28T12:48:15.463Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.datanewbier.com/blog/2018/08/27/computer-life/</loc>
-    
-    <lastmod>2018-08-27T12:43:39.550Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.datanewbier.com/blog/2018/08/27/hello-world/</loc>
-    
-    <lastmod>2018-08-27T11:38:28.259Z</lastmod>
     
   </url>
   
