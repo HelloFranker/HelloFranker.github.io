@@ -3,11 +3,11 @@
   <title>JianWu Blog</title>
   
   <subtitle>Jean_V</subtitle>
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.datanewbier.com/blog/"/>
+  <link href="http://www.datanewbier.com/"/>
   <updated>2018-08-29T03:34:55.302Z</updated>
-  <id>http://www.datanewbier.com/blog/</id>
+  <id>http://www.datanewbier.com/</id>
   
   <author>
     <name>Jian Wu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>data mining</title>
-    <link href="http://www.datanewbier.com/blog/2018/08/29/data-mining/"/>
-    <id>http://www.datanewbier.com/blog/2018/08/29/data-mining/</id>
+    <link href="http://www.datanewbier.com/2018/08/29/data-mining/"/>
+    <id>http://www.datanewbier.com/2018/08/29/data-mining/</id>
     <published>2018-08-29T03:09:51.000Z</published>
     <updated>2018-08-29T03:34:55.302Z</updated>
     
@@ -36,14 +36,14 @@
     </summary>
     
     
-      <category term="DataMining" scheme="http://www.datanewbier.com/blog/tags/DataMining/"/>
+      <category term="DataMining" scheme="http://www.datanewbier.com/tags/DataMining/"/>
     
   </entry>
   
   <entry>
     <title>随笔</title>
-    <link href="http://www.datanewbier.com/blog/2018/08/28/%E9%9A%8F%E7%AC%94/"/>
-    <id>http://www.datanewbier.com/blog/2018/08/28/随笔/</id>
+    <link href="http://www.datanewbier.com/2018/08/28/%E9%9A%8F%E7%AC%94/"/>
+    <id>http://www.datanewbier.com/2018/08/28/随笔/</id>
     <published>2018-08-28T13:05:04.000Z</published>
     <updated>2018-08-29T03:32:48.599Z</updated>
     
@@ -60,14 +60,14 @@
     </summary>
     
     
-      <category term="Note" scheme="http://www.datanewbier.com/blog/tags/Note/"/>
+      <category term="Note" scheme="http://www.datanewbier.com/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>coding</title>
-    <link href="http://www.datanewbier.com/blog/2018/08/28/coding/"/>
-    <id>http://www.datanewbier.com/blog/2018/08/28/coding/</id>
+    <link href="http://www.datanewbier.com/2018/08/28/coding/"/>
+    <id>http://www.datanewbier.com/2018/08/28/coding/</id>
     <published>2018-08-28T13:00:09.000Z</published>
     <updated>2018-08-29T03:31:01.023Z</updated>
     
@@ -76,14 +76,14 @@
     </summary>
     
     
-      <category term="Coding" scheme="http://www.datanewbier.com/blog/tags/Coding/"/>
+      <category term="Coding" scheme="http://www.datanewbier.com/tags/Coding/"/>
     
   </entry>
   
   <entry>
     <title>ML</title>
-    <link href="http://www.datanewbier.com/blog/2018/08/28/ML/"/>
-    <id>http://www.datanewbier.com/blog/2018/08/28/ML/</id>
+    <link href="http://www.datanewbier.com/2018/08/28/ML/"/>
+    <id>http://www.datanewbier.com/2018/08/28/ML/</id>
     <published>2018-08-28T12:59:45.000Z</published>
     <updated>2018-08-29T03:32:23.556Z</updated>
     
@@ -100,14 +100,14 @@
     </summary>
     
     
-      <category term="MachineLearning" scheme="http://www.datanewbier.com/blog/tags/MachineLearning/"/>
+      <category term="MachineLearning" scheme="http://www.datanewbier.com/tags/MachineLearning/"/>
     
   </entry>
   
   <entry>
     <title>Reading</title>
-    <link href="http://www.datanewbier.com/blog/2018/08/28/Reading/"/>
-    <id>http://www.datanewbier.com/blog/2018/08/28/Reading/</id>
+    <link href="http://www.datanewbier.com/2018/08/28/Reading/"/>
+    <id>http://www.datanewbier.com/2018/08/28/Reading/</id>
     <published>2018-08-28T12:59:23.000Z</published>
     <updated>2018-08-29T02:58:37.678Z</updated>
     
@@ -116,14 +116,14 @@
     </summary>
     
     
-      <category term="Reading" scheme="http://www.datanewbier.com/blog/tags/Reading/"/>
+      <category term="Reading" scheme="http://www.datanewbier.com/tags/Reading/"/>
     
   </entry>
   
   <entry>
     <title>计算机与生活</title>
-    <link href="http://www.datanewbier.com/blog/2018/08/27/computer-life/"/>
-    <id>http://www.datanewbier.com/blog/2018/08/27/computer-life/</id>
+    <link href="http://www.datanewbier.com/2018/08/27/computer-life/"/>
+    <id>http://www.datanewbier.com/2018/08/27/computer-life/</id>
     <published>2018-08-27T12:14:01.000Z</published>
     <updated>2018-08-29T03:31:18.365Z</updated>
     
@@ -139,14 +139,14 @@
     </summary>
     
     
-      <category term="Note" scheme="http://www.datanewbier.com/blog/tags/Note/"/>
+      <category term="Note" scheme="http://www.datanewbier.com/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.datanewbier.com/blog/2018/08/27/hello-world/"/>
-    <id>http://www.datanewbier.com/blog/2018/08/27/hello-world/</id>
+    <link href="http://www.datanewbier.com/2018/08/27/hello-world/"/>
+    <id>http://www.datanewbier.com/2018/08/27/hello-world/</id>
     <published>2018-08-27T11:38:28.258Z</published>
     <updated>2018-08-29T03:32:07.519Z</updated>
     
@@ -162,7 +162,7 @@
     </summary>
     
     
-      <category term="Note" scheme="http://www.datanewbier.com/blog/tags/Note/"/>
+      <category term="Note" scheme="http://www.datanewbier.com/tags/Note/"/>
     
   </entry>
   
