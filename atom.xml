@@ -3,11 +3,11 @@
   <title>JianWu Blog</title>
   
   <subtitle>Jean_V</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://www.datanewbier.com/"/>
+  <link href="http://www.datanewbier.com/blog/"/>
   <updated>2018-08-28T13:05:04.517Z</updated>
-  <id>http://www.datanewbier.com/</id>
+  <id>http://www.datanewbier.com/blog/</id>
   
   <author>
     <name>Jian Wu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>随笔</title>
-    <link href="http://www.datanewbier.com/2018/08/28/%E9%9A%8F%E7%AC%94/"/>
-    <id>http://www.datanewbier.com/2018/08/28/随笔/</id>
+    <link href="http://www.datanewbier.com/blog/2018/08/28/%E9%9A%8F%E7%AC%94/"/>
+    <id>http://www.datanewbier.com/blog/2018/08/28/随笔/</id>
     <published>2018-08-28T13:05:04.000Z</published>
     <updated>2018-08-28T13:05:04.517Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>diary</title>
-    <link href="http://www.datanewbier.com/2018/08/28/diary/"/>
-    <id>http://www.datanewbier.com/2018/08/28/diary/</id>
+    <link href="http://www.datanewbier.com/blog/2018/08/28/diary/"/>
+    <id>http://www.datanewbier.com/blog/2018/08/28/diary/</id>
     <published>2018-08-28T13:00:28.000Z</published>
     <updated>2018-08-28T13:00:28.405Z</updated>
     
@@ -46,8 +46,8 @@
   
   <entry>
     <title>coding</title>
-    <link href="http://www.datanewbier.com/2018/08/28/coding/"/>
-    <id>http://www.datanewbier.com/2018/08/28/coding/</id>
+    <link href="http://www.datanewbier.com/blog/2018/08/28/coding/"/>
+    <id>http://www.datanewbier.com/blog/2018/08/28/coding/</id>
     <published>2018-08-28T13:00:09.000Z</published>
     <updated>2018-08-28T13:00:09.920Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>ML</title>
-    <link href="http://www.datanewbier.com/2018/08/28/ML/"/>
-    <id>http://www.datanewbier.com/2018/08/28/ML/</id>
+    <link href="http://www.datanewbier.com/blog/2018/08/28/ML/"/>
+    <id>http://www.datanewbier.com/blog/2018/08/28/ML/</id>
     <published>2018-08-28T12:59:45.000Z</published>
     <updated>2018-08-28T12:59:45.074Z</updated>
     
@@ -74,8 +74,8 @@
   
   <entry>
     <title>Reading</title>
-    <link href="http://www.datanewbier.com/2018/08/28/Reading/"/>
-    <id>http://www.datanewbier.com/2018/08/28/Reading/</id>
+    <link href="http://www.datanewbier.com/blog/2018/08/28/Reading/"/>
+    <id>http://www.datanewbier.com/blog/2018/08/28/Reading/</id>
     <published>2018-08-28T12:59:23.000Z</published>
     <updated>2018-08-28T12:59:23.755Z</updated>
     
@@ -88,8 +88,8 @@
   
   <entry>
     <title>计算机与生活</title>
-    <link href="http://www.datanewbier.com/2018/08/27/computer-life/"/>
-    <id>http://www.datanewbier.com/2018/08/27/computer-life/</id>
+    <link href="http://www.datanewbier.com/blog/2018/08/27/computer-life/"/>
+    <id>http://www.datanewbier.com/blog/2018/08/27/computer-life/</id>
     <published>2018-08-27T12:14:01.000Z</published>
     <updated>2018-08-27T12:43:39.550Z</updated>
     
@@ -105,14 +105,14 @@
     </summary>
     
     
-      <category term="感想-thinking" scheme="http://www.datanewbier.com/tags/%E6%84%9F%E6%83%B3-thinking/"/>
+      <category term="感想-thinking" scheme="http://www.datanewbier.com/blog/tags/%E6%84%9F%E6%83%B3-thinking/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.datanewbier.com/2018/08/27/hello-world/"/>
-    <id>http://www.datanewbier.com/2018/08/27/hello-world/</id>
+    <link href="http://www.datanewbier.com/blog/2018/08/27/hello-world/"/>
+    <id>http://www.datanewbier.com/blog/2018/08/27/hello-world/</id>
     <published>2018-08-27T11:38:28.258Z</published>
     <updated>2018-08-27T11:38:28.259Z</updated>
     
