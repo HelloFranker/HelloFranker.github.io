@@ -514,109 +514,9 @@
 <li>Python中类似于log4j的日志输出</li>
 </ol>
 <hr>
-<p>1.Python打包压缩文件夹</p>
-<pre><code>def make_zip(source_dir, output_filename):
-    #打包目录为zip文件（未压缩）
-    zipf = zipfile.ZipFile(output_filename, &apos;a&apos;)
-    pre_len = len(os.path.dirname(source_dir))
-    for parent, dirnames, filenames in os.walk(source_dir):
-        for filename in filenames:
-            pathfile = os.path.join(parent, filename)
-            arcname = pathfile[pre_len:].strip(os.path.sep)
-            #相对路径
-            zipf.write(pathfile, arcname)
-    zipf.close()
-</code></pre><p>2.根据变量Object获取名字的字符串</p>
-<pre><code>def get_name_of_obj(obj,globals, except_word=&quot;&quot;):
-    for name, item in globals.items():
-        if item == obj and name != except_word:
-            return name
-</code></pre><p>3.判断一个字符串是不是一个数字</p>
-<pre><code># 判断一个字符串是不是数
-def is_number(s):
-    s=str(s)
-    try:
-        float(s)
-        return True
-    except ValueError:
-        pass
-    # 注释下方可以判断字符串是不是中文的数字，例如‘四’
-    # try:
-    #     import unicodedata
-    #     unicodedata.numeric(s)
-    #     return True
-    # except (TypeError, ValueError):
-    #     pass
-    return False
-</code></pre><p>4.Python中类似于log4j的日志输出<br>参考：<a href="https://blog.csdn.net/isscollege/article/details/80494009" target="_blank" rel="noopener">python日志公用文件设计-类似java的log4j</a></p>
-<pre><code>%(levelno)s: 打印日志级别的数值
-%(levelname)s: 打印日志级别名称&apos;NOTSET&apos;、&apos;DEBUG&apos;、&apos;INFO&apos;、&apos;WARNING&apos;、&apos;WARN&apos;、&apos;ERROR&apos;、&apos;FATAL&apos;、&apos;CRITICAL&apos;
-%(pathname)s:     打印当前执行程序的路径，其实就是sys.argv[0]
-%(filename)s:     打印当前执行程序名
-%(funcName)s:     打印日志的当前函数
-%(lineno)d:       打印日志的当前行号
-%(asctime)s:      打印日志的时间  
-%(thread)d:       打印线程ID
-%(threadName)s:   打印线程名称
-%(process)d:      打印进程ID  
-%(message)s:     打印日志信息
-
-%y 两位数的年份表示（00-99）
-%Y 四位数的年份表示（000-9999）
-%m 月份（01-12）
-%d 月内中的一天（0-31）
-%H 24小时制小时数（0-23）
-%I 12小时制小时数（01-12）
-%M 分钟数（00=59）
-%S 秒（00-59）
-%a 本地简化星期名称
-%A 本地完整星期名称
-%b 本地简化的月份名称
-%B 本地完整的月份名称
-%c 本地相应的日期表示和时间表示
-%j 年内的一天（001-366）
-%p 本地A.M.或P.M.的等价符
-%U 一年中的星期数（00-53）星期天为星期的开始
-%w 星期（0-6），星期天为星期的开始
-%W 一年中的星期数（00-53）星期一为星期的开始
-%x 本地相应的日期表示
-%X 本地相应的时间表示
-%Z 当前时区的名称
-%% %号本身
-
-&quot;&quot;&quot;
-import logging
-import datetime
-
-
-def getLog(path=&apos;.&apos;):
-    dt = datetime.datetime.now()
-    dtstr = dt.strftime(&apos;%Y-%m-%d&apos;)
-    # dtstr=dt.strftime(&apos;%Y-%m-%d_%H_%M_%S&apos;)
-    # 创建一个logger实例
-    logger = logging.getLogger(&quot;mylogger&quot;)
-    logging.basicConfig(filemode=&apos;wa&apos;)
-    hds = logger.handlers
-    for h in hds:
-        logger.removeHandler(h)
-    logger.setLevel(logging.INFO)
-    # 创建一个handler,用于写入日志文件，handler可以把日志内容写到不同的地方
-    logName = &quot;%s/%s_temp.log&quot; % (path, dtstr)
-    fh = logging.FileHandler(logName)
-    fh.setLevel(logging.INFO)
-    # 再创建一个handler，用于输出控制台
-    ch = logging.StreamHandler()
-    ch.setLevel(logging.INFO)
-    log_format = logging.Formatter(&quot;[%(asctime)s-%(filename)s:%(lineno)d]\n%(levelname)s:%(message)s&quot;, datefmt=&apos;%y-%m-%d %H:%M:%S&apos;)
-    fh.setFormatter(log_format)  # setFormatter() selects a Formatter object for this handler to use
-    ch.setFormatter(log_format)
-
-    logger.addHandler(fh)
-    logger.addHandler(ch)
-
-    return logger
-</code></pre>
-		
+        
+          <a class="article-more-a" href="/2018/08/28/Python3代码记事本/#more">more >></a>
+        
       
 
       
@@ -1090,19 +990,19 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Coding</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Reading</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">MachineLearning</a>
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Coding</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Note</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Reading</a>
               </li>
              
               <li class="article-tag-list-item">
