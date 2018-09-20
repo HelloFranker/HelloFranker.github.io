@@ -5,9 +5,9 @@
   <subtitle>Jean_V</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.datanewbier.com/"/>
+  <link href="http://www.jianwu925.com/"/>
   <updated>2018-09-19T12:51:21.838Z</updated>
-  <id>http://www.datanewbier.com/</id>
+  <id>http://www.jianwu925.com/</id>
   
   <author>
     <name>Jian Wu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>数学建模心路历程</title>
-    <link href="http://www.datanewbier.com/2018/09/19/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/"/>
-    <id>http://www.datanewbier.com/2018/09/19/数学建模心路历程/</id>
+    <link href="http://www.jianwu925.com/2018/09/19/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B/"/>
+    <id>http://www.jianwu925.com/2018/09/19/数学建模心路历程/</id>
     <published>2018-09-19T11:25:26.000Z</published>
     <updated>2018-09-19T12:51:21.838Z</updated>
     
@@ -33,14 +33,14 @@
     </summary>
     
     
-      <category term="Note" scheme="http://www.datanewbier.com/tags/Note/"/>
+      <category term="Note" scheme="http://www.jianwu925.com/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>reading first</title>
-    <link href="http://www.datanewbier.com/2018/09/02/reading-first/"/>
-    <id>http://www.datanewbier.com/2018/09/02/reading-first/</id>
+    <link href="http://www.jianwu925.com/2018/09/02/reading-first/"/>
+    <id>http://www.jianwu925.com/2018/09/02/reading-first/</id>
     <published>2018-09-02T13:26:55.000Z</published>
     <updated>2018-09-02T13:56:52.965Z</updated>
     
@@ -57,14 +57,14 @@
     </summary>
     
     
-      <category term="Reading" scheme="http://www.datanewbier.com/tags/Reading/"/>
+      <category term="Reading" scheme="http://www.jianwu925.com/tags/Reading/"/>
     
   </entry>
   
   <entry>
     <title>机器学习认知</title>
-    <link href="http://www.datanewbier.com/2018/09/02/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AE%A4%E7%9F%A5/"/>
-    <id>http://www.datanewbier.com/2018/09/02/机器学习认知/</id>
+    <link href="http://www.jianwu925.com/2018/09/02/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AE%A4%E7%9F%A5/"/>
+    <id>http://www.jianwu925.com/2018/09/02/机器学习认知/</id>
     <published>2018-09-02T13:13:31.000Z</published>
     <updated>2018-09-02T13:25:46.319Z</updated>
     
@@ -81,14 +81,14 @@
     </summary>
     
     
-      <category term="MachineLearning" scheme="http://www.datanewbier.com/tags/MachineLearning/"/>
+      <category term="MachineLearning" scheme="http://www.jianwu925.com/tags/MachineLearning/"/>
     
   </entry>
   
   <entry>
     <title>数据挖掘认知</title>
-    <link href="http://www.datanewbier.com/2018/09/02/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E8%AE%A4%E7%9F%A5/"/>
-    <id>http://www.datanewbier.com/2018/09/02/数据挖掘认知/</id>
+    <link href="http://www.jianwu925.com/2018/09/02/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E8%AE%A4%E7%9F%A5/"/>
+    <id>http://www.jianwu925.com/2018/09/02/数据挖掘认知/</id>
     <published>2018-09-02T12:55:33.000Z</published>
     <updated>2018-09-02T13:11:35.719Z</updated>
     
@@ -106,14 +106,14 @@
     </summary>
     
     
-      <category term="DataMining" scheme="http://www.datanewbier.com/tags/DataMining/"/>
+      <category term="DataMining" scheme="http://www.jianwu925.com/tags/DataMining/"/>
     
   </entry>
   
   <entry>
     <title>Python 数据分析trick</title>
-    <link href="http://www.datanewbier.com/2018/09/01/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90trick/"/>
-    <id>http://www.datanewbier.com/2018/09/01/Python-数据分析trick/</id>
+    <link href="http://www.jianwu925.com/2018/09/01/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90trick/"/>
+    <id>http://www.jianwu925.com/2018/09/01/Python-数据分析trick/</id>
     <published>2018-09-01T14:07:07.000Z</published>
     <updated>2018-09-01T14:17:27.777Z</updated>
     
@@ -133,14 +133,14 @@
     </summary>
     
     
-      <category term="Programming" scheme="http://www.datanewbier.com/tags/Programming/"/>
+      <category term="Programming" scheme="http://www.jianwu925.com/tags/Programming/"/>
     
   </entry>
   
   <entry>
     <title>高中感悟</title>
-    <link href="http://www.datanewbier.com/2018/08/29/%E9%AB%98%E4%B8%AD%E6%84%9F%E6%82%9F/"/>
-    <id>http://www.datanewbier.com/2018/08/29/高中感悟/</id>
+    <link href="http://www.jianwu925.com/2018/08/29/%E9%AB%98%E4%B8%AD%E6%84%9F%E6%82%9F/"/>
+    <id>http://www.jianwu925.com/2018/08/29/高中感悟/</id>
     <published>2018-08-29T11:47:34.000Z</published>
     <updated>2018-08-29T11:51:29.573Z</updated>
     
@@ -153,14 +153,14 @@
     </summary>
     
     
-      <category term="Note" scheme="http://www.datanewbier.com/tags/Note/"/>
+      <category term="Note" scheme="http://www.jianwu925.com/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>经验感悟</title>
-    <link href="http://www.datanewbier.com/2018/08/29/%E7%BB%8F%E9%AA%8C%E6%84%9F%E6%82%9F/"/>
-    <id>http://www.datanewbier.com/2018/08/29/经验感悟/</id>
+    <link href="http://www.jianwu925.com/2018/08/29/%E7%BB%8F%E9%AA%8C%E6%84%9F%E6%82%9F/"/>
+    <id>http://www.jianwu925.com/2018/08/29/经验感悟/</id>
     <published>2018-08-29T11:28:51.000Z</published>
     <updated>2018-08-29T11:56:10.327Z</updated>
     
@@ -173,14 +173,14 @@
     </summary>
     
     
-      <category term="Note" scheme="http://www.datanewbier.com/tags/Note/"/>
+      <category term="Note" scheme="http://www.jianwu925.com/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>彷徨时瞅一眼</title>
-    <link href="http://www.datanewbier.com/2018/08/28/%E5%BD%B7%E5%BE%A8%E6%97%B6%E7%9E%85%E4%B8%80%E7%9C%BC/"/>
-    <id>http://www.datanewbier.com/2018/08/28/彷徨时瞅一眼/</id>
+    <link href="http://www.jianwu925.com/2018/08/28/%E5%BD%B7%E5%BE%A8%E6%97%B6%E7%9E%85%E4%B8%80%E7%9C%BC/"/>
+    <id>http://www.jianwu925.com/2018/08/28/彷徨时瞅一眼/</id>
     <published>2018-08-28T13:05:04.000Z</published>
     <updated>2018-08-29T11:16:02.875Z</updated>
     
@@ -194,14 +194,14 @@
     </summary>
     
     
-      <category term="Note" scheme="http://www.datanewbier.com/tags/Note/"/>
+      <category term="Note" scheme="http://www.jianwu925.com/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>Python3代码记事本</title>
-    <link href="http://www.datanewbier.com/2018/08/28/Python3%E4%BB%A3%E7%A0%81%E8%AE%B0%E4%BA%8B%E6%9C%AC/"/>
-    <id>http://www.datanewbier.com/2018/08/28/Python3代码记事本/</id>
+    <link href="http://www.jianwu925.com/2018/08/28/Python3%E4%BB%A3%E7%A0%81%E8%AE%B0%E4%BA%8B%E6%9C%AC/"/>
+    <id>http://www.jianwu925.com/2018/08/28/Python3代码记事本/</id>
     <published>2018-08-28T13:00:09.000Z</published>
     <updated>2018-08-30T09:44:50.261Z</updated>
     
@@ -220,14 +220,14 @@
     </summary>
     
     
-      <category term="Programming" scheme="http://www.datanewbier.com/tags/Programming/"/>
+      <category term="Programming" scheme="http://www.jianwu925.com/tags/Programming/"/>
     
   </entry>
   
   <entry>
     <title>计算机与生活</title>
-    <link href="http://www.datanewbier.com/2018/08/27/computer-life/"/>
-    <id>http://www.datanewbier.com/2018/08/27/computer-life/</id>
+    <link href="http://www.jianwu925.com/2018/08/27/computer-life/"/>
+    <id>http://www.jianwu925.com/2018/08/27/computer-life/</id>
     <published>2018-08-27T12:14:01.000Z</published>
     <updated>2018-08-29T03:31:18.365Z</updated>
     
@@ -243,14 +243,14 @@
     </summary>
     
     
-      <category term="Note" scheme="http://www.datanewbier.com/tags/Note/"/>
+      <category term="Note" scheme="http://www.jianwu925.com/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.datanewbier.com/2018/08/27/hello-world/"/>
-    <id>http://www.datanewbier.com/2018/08/27/hello-world/</id>
+    <link href="http://www.jianwu925.com/2018/08/27/hello-world/"/>
+    <id>http://www.jianwu925.com/2018/08/27/hello-world/</id>
     <published>2018-08-27T11:38:28.258Z</published>
     <updated>2018-08-29T03:32:07.519Z</updated>
     
@@ -266,7 +266,7 @@
     </summary>
     
     
-      <category term="Note" scheme="http://www.datanewbier.com/tags/Note/"/>
+      <category term="Note" scheme="http://www.jianwu925.com/tags/Note/"/>
     
   </entry>
   
