@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="JianWu Blog">
 <meta property="og:description" content="统计每行、每列的缺失情况 画roc_auc图 画pr_auc图 画k_fold_roc图 画k_fold_pr图">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-01T14:17:27.777Z">
+<meta property="og:updated_time" content="2018-09-21T14:16:25.002Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python 数据分析trick">
 <meta name="twitter:description" content="统计每行、每列的缺失情况 画roc_auc图 画pr_auc图 画k_fold_roc图 画k_fold_pr图">
@@ -210,16 +210,25 @@
 <li>画k_fold_roc图</li>
 <li>画k_fold_pr图</li>
 </ol>
-<hr>
 <a id="more"></a>
-<p>1.统计每行、每列的缺失情况</p>
-<pre><code>def miss_check(df):
+<h1 id="统计每行、每列的缺失情况"><a href="#统计每行、每列的缺失情况" class="headerlink" title="统计每行、每列的缺失情况"></a>统计每行、每列的缺失情况</h1><pre><code>def miss_check(df):
     isnull_df=df.isnull()
     row_miss_series=isnull_df.sum(axis=1)
     row_miss_series=isnull_df.sum(axis=0)
     return row_miss_series,row_miss_series
 </code></pre>
 		
+               
+     <div id="toc" class="article-toc">
+     <h2>目录</h2>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#统计每行、每列的缺失情况"><span class="toc-number">1.</span> <span class="toc-text">统计每行、每列的缺失情况</span></a></li></ol>  
+    </div>
+    <script type="text/javascript">
+       var _article = document.getElementsByClassName('article')[0];
+       <!-- setTimeout("_article.style.marginRight = '211px'",0);  -->
+       setTimeout("_article.className += ' article2'",0); 
+       setTimeout("document.getElementById('toc').style.right = '15px'", 0);                
+     </script>
    
  
       
@@ -360,6 +369,19 @@
             </div>
         </div>
         
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#统计每行、每列的缺失情况"><span class="toc-number">1.</span> <span class="toc-text">统计每行、每列的缺失情况</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
         
     </div>
 </aside>
