@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="JianWu Blog">
 <meta property="og:description" content="Python打包压缩文件夹 根据变量Object获取名字的字符串 判断一个字符串是不是一个数字 Python中类似于log4j的日志输出">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-30T09:44:50.261Z">
+<meta property="og:updated_time" content="2018-09-21T14:06:31.274Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python3代码记事本">
 <meta name="twitter:description" content="Python打包压缩文件夹 根据变量Object获取名字的字符串 判断一个字符串是不是一个数字 Python中类似于log4j的日志输出">
@@ -211,8 +211,7 @@
 </ol>
 <hr>
 <a id="more"></a>
-<p>1.Python打包压缩文件夹</p>
-<pre><code>def make_zip(source_dir, output_filename):
+<h1 id="Python打包压缩文件夹"><a href="#Python打包压缩文件夹" class="headerlink" title="Python打包压缩文件夹"></a>Python打包压缩文件夹</h1><pre><code>def make_zip(source_dir, output_filename):
     #打包目录为zip文件（未压缩）
     zipf = zipfile.ZipFile(output_filename, &apos;a&apos;)
     pre_len = len(os.path.dirname(source_dir))
@@ -223,13 +222,11 @@
             #相对路径
             zipf.write(pathfile, arcname)
     zipf.close()
-</code></pre><p>2.根据变量Object获取名字的字符串</p>
-<pre><code>def get_name_of_obj(obj,globals, except_word=&quot;&quot;):
+</code></pre><h1 id="根据变量Object获取名字的字符串"><a href="#根据变量Object获取名字的字符串" class="headerlink" title="根据变量Object获取名字的字符串"></a>根据变量Object获取名字的字符串</h1><pre><code>def get_name_of_obj(obj,globals, except_word=&quot;&quot;):
     for name, item in globals.items():
         if item == obj and name != except_word:
             return name
-</code></pre><p>3.判断一个字符串是不是一个数字</p>
-<pre><code># 判断一个字符串是不是数
+</code></pre><h1 id="判断一个字符串是不是一个数字"><a href="#判断一个字符串是不是一个数字" class="headerlink" title="判断一个字符串是不是一个数字"></a>判断一个字符串是不是一个数字</h1><pre><code># 判断一个字符串是不是数
 def is_number(s):
     s=str(s)
     try:
@@ -245,7 +242,7 @@ def is_number(s):
     # except (TypeError, ValueError):
     #     pass
     return False
-</code></pre><p>4.Python中类似于log4j的日志输出<br>参考：<a href="https://blog.csdn.net/isscollege/article/details/80494009" target="_blank" rel="noopener">python日志公用文件设计-类似java的log4j</a></p>
+</code></pre><h1 id="Python中类似于log4j的日志输出"><a href="#Python中类似于log4j的日志输出" class="headerlink" title="Python中类似于log4j的日志输出"></a>Python中类似于log4j的日志输出</h1><p>参考：<a href="https://blog.csdn.net/isscollege/article/details/80494009" target="_blank" rel="noopener">python日志公用文件设计-类似java的log4j</a></p>
 <pre><code>%(levelno)s: 打印日志级别的数值
 %(levelname)s: 打印日志级别名称&apos;NOTSET&apos;、&apos;DEBUG&apos;、&apos;INFO&apos;、&apos;WARNING&apos;、&apos;WARN&apos;、&apos;ERROR&apos;、&apos;FATAL&apos;、&apos;CRITICAL&apos;
 %(pathname)s:     打印当前执行程序的路径，其实就是sys.argv[0]
@@ -314,6 +311,17 @@ def getLog(path=&apos;.&apos;):
     return logger
 </code></pre>
 		
+               
+     <div id="toc" class="article-toc">
+     <h2>目录</h2>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Python打包压缩文件夹"><span class="toc-number">1.</span> <span class="toc-text">Python打包压缩文件夹</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#根据变量Object获取名字的字符串"><span class="toc-number">2.</span> <span class="toc-text">根据变量Object获取名字的字符串</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#判断一个字符串是不是一个数字"><span class="toc-number">3.</span> <span class="toc-text">判断一个字符串是不是一个数字</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Python中类似于log4j的日志输出"><span class="toc-number">4.</span> <span class="toc-text">Python中类似于log4j的日志输出</span></a></li></ol>  
+    </div>
+    <script type="text/javascript">
+       var _article = document.getElementsByClassName('article')[0];
+       <!-- setTimeout("_article.style.marginRight = '211px'",0);  -->
+       setTimeout("_article.className += ' article2'",0); 
+       setTimeout("document.getElementById('toc').style.right = '15px'", 0);                
+     </script>
    
  
       
@@ -455,6 +463,19 @@ def getLog(path=&apos;.&apos;):
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Python打包压缩文件夹"><span class="toc-number">1.</span> <span class="toc-text">Python打包压缩文件夹</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#根据变量Object获取名字的字符串"><span class="toc-number">2.</span> <span class="toc-text">根据变量Object获取名字的字符串</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#判断一个字符串是不是一个数字"><span class="toc-number">3.</span> <span class="toc-text">判断一个字符串是不是一个数字</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Python中类似于log4j的日志输出"><span class="toc-number">4.</span> <span class="toc-text">Python中类似于log4j的日志输出</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
@@ -496,7 +517,7 @@ def getLog(path=&apos;.&apos;):
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
-		toc_hide_index: true,
+		toc_hide_index: false,
 		root: "/",
 		innerArchive: true,
 		showTags: true
