@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwu925.com/"/>
-  <updated>2018-09-19T12:51:21.838Z</updated>
+  <updated>2018-09-21T12:50:36.107Z</updated>
   <id>http://www.jianwu925.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>17个Python骚技巧</title>
+    <link href="http://www.jianwu925.com/2018/09/21/17%E4%B8%AAPython%E9%AA%9A%E6%8A%80%E5%B7%A7/"/>
+    <id>http://www.jianwu925.com/2018/09/21/17个Python骚技巧/</id>
+    <published>2018-09-21T12:21:41.000Z</published>
+    <updated>2018-09-21T12:50:36.107Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Python中的17个重要的“骚技巧”</strong></p><h2 id="交换变量"><a href="#交换变量" class="headerlink" title="交换变量"></a>交换变量</h2><h2 id="将列表合成一个字符串"><a href="#将列表合成一个字符串" class="headerlink" title="将列表合成一个字符串"></a>将列表合成一个字符串</h2><h2 id="查找列表中出现频率最高的值"><a href="#查找列表中出现频率最高的值" class="headerlink" title="查找列表中出现频率最高的值"></a>查找列表中出现频率最高的值</h2><h2 id="检查两个字符串是不是相同字母不同顺序组成的"><a href="#检查两个字符串是不是相同字母不同顺序组成的" class="headerlink" title="检查两个字符串是不是相同字母不同顺序组成的"></a>检查两个字符串是不是相同字母不同顺序组成的</h2><h2 id="反转字符串"><a href="#反转字符串" class="headerlink" title="反转字符串"></a>反转字符串</h2><h2 id="反转列表"><a href="#反转列表" class="headerlink" title="反转列表"></a>反转列表</h2><h2 id="转置二维数组"><a href="#转置二维数组" class="headerlink" title="转置二维数组"></a>转置二维数组</h2><h2 id="链式比较"><a href="#链式比较" class="headerlink" title="链式比较"></a>链式比较</h2><h2 id="链式函数调用"><a href="#链式函数调用" class="headerlink" title="链式函数调用"></a>链式函数调用</h2><h2 id="复制列表"><a href="#复制列表" class="headerlink" title="复制列表"></a>复制列表</h2><h2 id="字典的get方法"><a href="#字典的get方法" class="headerlink" title="字典的get方法"></a>字典的get方法</h2><h2 id="通过key排序字典"><a href="#通过key排序字典" class="headerlink" title="通过key排序字典"></a>通过key排序字典</h2><h2 id="For-else"><a href="#For-else" class="headerlink" title="For else"></a>For else</h2><h2 id="转换列表为逗号分隔符格式"><a href="#转换列表为逗号分隔符格式" class="headerlink" title="转换列表为逗号分隔符格式"></a>转换列表为逗号分隔符格式</h2><h2 id="合并字典"><a href="#合并字典" class="headerlink" title="合并字典"></a>合并字典</h2><h2 id="列表中最小和最大的索引"><a href="#列表中最小和最大的索引" class="headerlink" title="列表中最小和最大的索引"></a>列表中最小和最大的索引</h2><h2 id="移除列表中的重复元素"><a href="#移除列表中的重复元素" class="headerlink" title="移除列表中的重复元素"></a>移除列表中的重复元素</h2><a id="more"></a><ol><li><p><strong>交换变量</strong><br><img src="/2018/09/21/17个Python骚技巧/1.png" alt=""></p></li><li><p><strong>将列表合成一个字符串</strong><br><img src="/2018/09/21/17个Python骚技巧/2.png" alt=""></p></li><li><p><strong>查找列表中出现频率最高的值</strong><br><img src="/2018/09/21/17个Python骚技巧/3.png" alt=""></p></li><li><p><strong>检查两个字符串是不是相同字母不同顺序组成的</strong><br><img src="/2018/09/21/17个Python骚技巧/4.png" alt=""></p></li><li><p><strong>反转字符串</strong><br><img src="/2018/09/21/17个Python骚技巧/5.png" alt=""></p></li><li><p><strong>反转列表</strong><br><img src="/2018/09/21/17个Python骚技巧/6.png" alt=""></p></li><li><p><strong>转置二维数组</strong><br><img src="/2018/09/21/17个Python骚技巧/7.png" alt=""></p></li><li><p><strong>链式比较</strong><br><img src="/2018/09/21/17个Python骚技巧/8.png" alt=""></p></li><li><p><strong>链式函数调用</strong><br><img src="/2018/09/21/17个Python骚技巧/9.png" alt=""></p></li><li><p><strong>复制列表</strong><br><img src="/2018/09/21/17个Python骚技巧/10.png" alt=""></p></li><li><p><strong>字典的get方法</strong><br><img src="/2018/09/21/17个Python骚技巧/11.png" alt=""></p></li><li><p><strong>通过key排序字典</strong><br><img src="/2018/09/21/17个Python骚技巧/12.png" alt=""></p></li><li><p><strong>For else</strong><br><img src="/2018/09/21/17个Python骚技巧/13.png" alt=""></p></li><li><p><strong>转换列表为逗号分隔符格式</strong><br><img src="/2018/09/21/17个Python骚技巧/14.png" alt=""></p></li><li><p><strong>合并字典</strong><br><img src="/2018/09/21/17个Python骚技巧/15.png" alt=""></p></li><li><p><strong>列表中最小和最大的索引</strong><br><img src="/2018/09/21/17个Python骚技巧/16.png" alt=""></p></li><li><p><strong>移除列表中的重复元素</strong><br><img src="/2018/09/21/17个Python骚技巧/17.png" alt=""></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Python中的17个重要的“骚技巧”&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;交换变量&quot;&gt;&lt;a href=&quot;#交换变量&quot; class=&quot;headerlink&quot; title=&quot;交换变量&quot;&gt;&lt;/a&gt;交换变量&lt;/h2&gt;&lt;h2 id=&quot;将列表合成一个字符串&quot;&gt;&lt;a href=&quot;#将列表合成一个字符串&quot; class=&quot;headerlink&quot; title=&quot;将列表合成一个字符串&quot;&gt;&lt;/a&gt;将列表合成一个字符串&lt;/h2&gt;&lt;h2 id=&quot;查找列表中出现频率最高的值&quot;&gt;&lt;a href=&quot;#查找列表中出现频率最高的值&quot; class=&quot;headerlink&quot; title=&quot;查找列表中出现频率最高的值&quot;&gt;&lt;/a&gt;查找列表中出现频率最高的值&lt;/h2&gt;&lt;h2 id=&quot;检查两个字符串是不是相同字母不同顺序组成的&quot;&gt;&lt;a href=&quot;#检查两个字符串是不是相同字母不同顺序组成的&quot; class=&quot;headerlink&quot; title=&quot;检查两个字符串是不是相同字母不同顺序组成的&quot;&gt;&lt;/a&gt;检查两个字符串是不是相同字母不同顺序组成的&lt;/h2&gt;&lt;h2 id=&quot;反转字符串&quot;&gt;&lt;a href=&quot;#反转字符串&quot; class=&quot;headerlink&quot; title=&quot;反转字符串&quot;&gt;&lt;/a&gt;反转字符串&lt;/h2&gt;&lt;h2 id=&quot;反转列表&quot;&gt;&lt;a href=&quot;#反转列表&quot; class=&quot;headerlink&quot; title=&quot;反转列表&quot;&gt;&lt;/a&gt;反转列表&lt;/h2&gt;&lt;h2 id=&quot;转置二维数组&quot;&gt;&lt;a href=&quot;#转置二维数组&quot; class=&quot;headerlink&quot; title=&quot;转置二维数组&quot;&gt;&lt;/a&gt;转置二维数组&lt;/h2&gt;&lt;h2 id=&quot;链式比较&quot;&gt;&lt;a href=&quot;#链式比较&quot; class=&quot;headerlink&quot; title=&quot;链式比较&quot;&gt;&lt;/a&gt;链式比较&lt;/h2&gt;&lt;h2 id=&quot;链式函数调用&quot;&gt;&lt;a href=&quot;#链式函数调用&quot; class=&quot;headerlink&quot; title=&quot;链式函数调用&quot;&gt;&lt;/a&gt;链式函数调用&lt;/h2&gt;&lt;h2 id=&quot;复制列表&quot;&gt;&lt;a href=&quot;#复制列表&quot; class=&quot;headerlink&quot; title=&quot;复制列表&quot;&gt;&lt;/a&gt;复制列表&lt;/h2&gt;&lt;h2 id=&quot;字典的get方法&quot;&gt;&lt;a href=&quot;#字典的get方法&quot; class=&quot;headerlink&quot; title=&quot;字典的get方法&quot;&gt;&lt;/a&gt;字典的get方法&lt;/h2&gt;&lt;h2 id=&quot;通过key排序字典&quot;&gt;&lt;a href=&quot;#通过key排序字典&quot; class=&quot;headerlink&quot; title=&quot;通过key排序字典&quot;&gt;&lt;/a&gt;通过key排序字典&lt;/h2&gt;&lt;h2 id=&quot;For-else&quot;&gt;&lt;a href=&quot;#For-else&quot; class=&quot;headerlink&quot; title=&quot;For else&quot;&gt;&lt;/a&gt;For else&lt;/h2&gt;&lt;h2 id=&quot;转换列表为逗号分隔符格式&quot;&gt;&lt;a href=&quot;#转换列表为逗号分隔符格式&quot; class=&quot;headerlink&quot; title=&quot;转换列表为逗号分隔符格式&quot;&gt;&lt;/a&gt;转换列表为逗号分隔符格式&lt;/h2&gt;&lt;h2 id=&quot;合并字典&quot;&gt;&lt;a href=&quot;#合并字典&quot; class=&quot;headerlink&quot; title=&quot;合并字典&quot;&gt;&lt;/a&gt;合并字典&lt;/h2&gt;&lt;h2 id=&quot;列表中最小和最大的索引&quot;&gt;&lt;a href=&quot;#列表中最小和最大的索引&quot; class=&quot;headerlink&quot; title=&quot;列表中最小和最大的索引&quot;&gt;&lt;/a&gt;列表中最小和最大的索引&lt;/h2&gt;&lt;h2 id=&quot;移除列表中的重复元素&quot;&gt;&lt;a href=&quot;#移除列表中的重复元素&quot; class=&quot;headerlink&quot; title=&quot;移除列表中的重复元素&quot;&gt;&lt;/a&gt;移除列表中的重复元素&lt;/h2&gt;
+    
+    </summary>
+    
+    
+      <category term="Programming" scheme="http://www.jianwu925.com/tags/Programming/"/>
+    
+  </entry>
   
   <entry>
     <title>数学建模心路历程</title>
@@ -42,17 +63,18 @@
     <link href="http://www.jianwu925.com/2018/09/02/reading-first/"/>
     <id>http://www.jianwu925.com/2018/09/02/reading-first/</id>
     <published>2018-09-02T13:26:55.000Z</published>
-    <updated>2018-09-02T13:56:52.965Z</updated>
+    <updated>2018-09-21T12:52:11.594Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="看过的书籍："><a href="#看过的书籍：" class="headerlink" title="看过的书籍："></a><strong>看过的书籍：</strong></h2><ol><li><p><strong>《钢铁是怎样炼成的》</strong>  作者 奥斯特洛夫斯基<br>小说通过记叙<strong>保尔·柯察金</strong>的成长道路告诉人们，一个人只有在革命的艰难困苦中战胜敌人也战胜自己，只有在把自己的追求和祖国、人民的利益联系在一起的时候，才会创造出奇迹，才会成长为钢铁战士。</p></li><li><p><strong>《巴黎圣母院》</strong>  作者 雨果<br>《巴黎圣母院》是法国文学家维克多·雨果创作的长篇小说，《巴黎圣母院》以离奇和对比手法写了一个发生在15世纪法国的故事：巴黎圣母院副主教克罗德道貌岸然、蛇蝎心肠，先爱后恨，迫害吉ト赛女郎埃斯梅拉达。面目丑陋、心地善良的敲钟人卡西莫多为救女郎舍身。小说揭露了宗教的虚伪，宣告禁欲主义的破产，歌颂了下层劳动人民的善良、友爱、舍己为人，反映了雨果的人道主义思想。</p></li><li><p><strong>《我的大学》</strong>  作者 高尔基<br>《我的大学》是前苏联作家马克西姆·高尔基创作的自传体小说《人生三部曲》中的最后一部。其余两部为《童年》、《在人间》。该书中作者描写了他青年时代的生活经历。从这个被真实记述下来的过程中，可以看出青少年时代的高尔基对小市民习气的深恶痛绝，对自由的热烈追求，对美好生活的强烈向往。</p></li><li><p><strong>《骆驼祥子》 </strong> 作者 老舍<br>《骆驼祥子》是人民艺术家——老舍（舒庆春）所著的长篇小说，描述了20世纪20年代军阀混战时期人力车夫的悲惨命运。祥子是旧社会劳苦大众的代表人物。</p></li></ol><p><strong>## 看过的杂志 ##</strong><br><strong>1. 读者 </strong><br>《读者》，原名《读者文摘》，是由读者出版传媒股份有限公司主办的中文版半月刊物。<br>《读者》杂志发掘人性中的真、善、美，体现人文关怀。《读者》在刊物内容及形式方面与时俱进，追求高品位、高质量，力求精品，并以其形式和内容的丰富性及多样性，赢得了各个年龄段和不同阶层读者的喜爱与拥护。发行量稳居中国期刊排名第一，亚洲期刊排名第一，世界综合性期刊排名第四。被誉为“中国人的心灵读本”、“中国期刊第一品牌”。<br><img src="https://i.imgur.com/266DrM5.jpg" alt=""></p><p><strong>2. 青年文摘</strong><br>《青年文摘》由共青团中央主管、中国青年出版社主办，创刊于1981年1月，自2000年起改为半月刊，是中国发行量最大的青年杂志，单期发行145-150万册。 《青年文摘》是一本面向全国、以青少年为核心读者群的文摘类综合刊物，刊物集萃来自报纸、期刊、图书等大众媒体的名篇佳作，旨在为青少年打造一个丰富生动、健康向上的精神空间。<br><img src="https://i.imgur.com/8pCmXsY.jpg" alt=""></p><p><strong>3. 意林</strong><br> 《意林》，原名《春风》，是由中共长春市委宣传部主管，长春市文学艺术界联合会主办的中文版半月刊杂志。2003年4月，《春风·意林》开始筹备，8月正式创刊；2004年6月，经新闻出版署批准，从第7期正式改名为《意林》；2005年5月由月刊改为半月刊。<br><img src="https://i.imgur.com/mucwrTf.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="看过的书籍："><a href="#看过的书籍：" class="headerlink" title="看过的书籍："></a><strong>看过的书籍：</strong></h2><ol><li><p><strong>《钢铁是怎样炼成的》</strong>  作者 奥斯特洛夫斯基<br>小说通过记叙<strong>保尔·柯察金</strong>的成长道路告诉人们，一个人只有在革命的艰难困苦中战胜敌人也战胜自己，只有在把自己的追求和祖国、人民的利益联系在一起的时候，才会创造出奇迹，才会成长为钢铁战士。</p></li><li><p><strong>《巴黎圣母院》</strong>  作者 雨果<br>《巴黎圣母院》是法国文学家维克多·雨果创作的长篇小说，《巴黎圣母院》以离奇和对比手法写了一个发生在15世纪法国的故事：巴黎圣母院副主教克罗德道貌岸然、蛇蝎心肠，先爱后恨，迫害吉ト赛女郎埃斯梅拉达。面目丑陋、心地善良的敲钟人卡西莫多为救女郎舍身。小说揭露了宗教的虚伪，宣告禁欲主义的破产，歌颂了下层劳动人民的善良、友爱、舍己为人，反映了雨果的人道主义思想。</p></li><li><p><strong>《我的大学》</strong>  作者 高尔基<br>《我的大学》是前苏联作家马克西姆·高尔基创作的自传体小说《人生三部曲》中的最后一部。其余两部为《童年》、《在人间》。该书中作者描写了他青年时代的生活经历。从这个被真实记述下来的过程中，可以看出青少年时代的高尔基对小市民习气的深恶痛绝，对自由的热烈追求，对美好生活的强烈向往。</p><a id="more"></a></li><li><p><strong>《骆驼祥子》 </strong> 作者 老舍<br>《骆驼祥子》是人民艺术家——老舍（舒庆春）所著的长篇小说，描述了20世纪20年代军阀混战时期人力车夫的悲惨命运。祥子是旧社会劳苦大众的代表人物。</p></li></ol><p><strong>## 看过的杂志 ##</strong><br><strong>1. 读者 </strong><br>《读者》，原名《读者文摘》，是由读者出版传媒股份有限公司主办的中文版半月刊物。<br>《读者》杂志发掘人性中的真、善、美，体现人文关怀。《读者》在刊物内容及形式方面与时俱进，追求高品位、高质量，力求精品，并以其形式和内容的丰富性及多样性，赢得了各个年龄段和不同阶层读者的喜爱与拥护。发行量稳居中国期刊排名第一，亚洲期刊排名第一，世界综合性期刊排名第四。被誉为“中国人的心灵读本”、“中国期刊第一品牌”。<br><img src="https://i.imgur.com/266DrM5.jpg" alt=""></p><p><strong>2. 青年文摘</strong><br>《青年文摘》由共青团中央主管、中国青年出版社主办，创刊于1981年1月，自2000年起改为半月刊，是中国发行量最大的青年杂志，单期发行145-150万册。 《青年文摘》是一本面向全国、以青少年为核心读者群的文摘类综合刊物，刊物集萃来自报纸、期刊、图书等大众媒体的名篇佳作，旨在为青少年打造一个丰富生动、健康向上的精神空间。<br><img src="https://i.imgur.com/8pCmXsY.jpg" alt=""></p><p><strong>3. 意林</strong><br> 《意林》，原名《春风》，是由中共长春市委宣传部主管，长春市文学艺术界联合会主办的中文版半月刊杂志。2003年4月，《春风·意林》开始筹备，8月正式创刊；2004年6月，经新闻出版署批准，从第7期正式改名为《意林》；2005年5月由月刊改为半月刊。<br><img src="https://i.imgur.com/mucwrTf.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;看过的书籍：&quot;&gt;&lt;a href=&quot;#看过的书籍：&quot; class=&quot;headerlink&quot; title=&quot;看过的书籍：&quot;&gt;&lt;/a&gt;&lt;strong&gt;看过的书籍：&lt;/strong&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;《钢铁是怎样炼成的》&lt;/strong&gt; 
-      
+      &lt;h2 id=&quot;看过的书籍：&quot;&gt;&lt;a href=&quot;#看过的书籍：&quot; class=&quot;headerlink&quot; title=&quot;看过的书籍：&quot;&gt;&lt;/a&gt;&lt;strong&gt;看过的书籍：&lt;/strong&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;《钢铁是怎样炼成的》&lt;/strong&gt;  作者 奥斯特洛夫斯基&lt;br&gt;小说通过记叙&lt;strong&gt;保尔·柯察金&lt;/strong&gt;的成长道路告诉人们，一个人只有在革命的艰难困苦中战胜敌人也战胜自己，只有在把自己的追求和祖国、人民的利益联系在一起的时候，才会创造出奇迹，才会成长为钢铁战士。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;《巴黎圣母院》&lt;/strong&gt;  作者 雨果&lt;br&gt;《巴黎圣母院》是法国文学家维克多·雨果创作的长篇小说，《巴黎圣母院》以离奇和对比手法写了一个发生在15世纪法国的故事：巴黎圣母院副主教克罗德道貌岸然、蛇蝎心肠，先爱后恨，迫害吉ト赛女郎埃斯梅拉达。面目丑陋、心地善良的敲钟人卡西莫多为救女郎舍身。小说揭露了宗教的虚伪，宣告禁欲主义的破产，歌颂了下层劳动人民的善良、友爱、舍己为人，反映了雨果的人道主义思想。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;《我的大学》&lt;/strong&gt;  作者 高尔基&lt;br&gt;《我的大学》是前苏联作家马克西姆·高尔基创作的自传体小说《人生三部曲》中的最后一部。其余两部为《童年》、《在人间》。该书中作者描写了他青年时代的生活经历。从这个被真实记述下来的过程中，可以看出青少年时代的高尔基对小市民习气的深恶痛绝，对自由的热烈追求，对美好生活的强烈向往。&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;
     
     </summary>
     
