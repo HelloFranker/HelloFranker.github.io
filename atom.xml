@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwu925.com/"/>
-  <updated>2018-10-10T08:44:36.463Z</updated>
+  <updated>2018-10-14T12:04:08.236Z</updated>
   <id>http://www.jianwu925.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2018秋招58笔试题</title>
+    <link href="http://www.jianwu925.com/2018/10/14/2018%E7%A7%8B%E6%8B%9B58%E7%AC%94%E8%AF%95%E9%A2%98/"/>
+    <id>http://www.jianwu925.com/2018/10/14/2018秋招58笔试题/</id>
+    <published>2018-10-14T11:11:45.000Z</published>
+    <updated>2018-10-14T12:04:08.236Z</updated>
+    
+    <content type="html"><![CDATA[<p>2018秋招58同城-技术后端类笔试题(部分)</p><h1 id="选择题"><a href="#选择题" class="headerlink" title="选择题"></a>选择题</h1><ol><li>Linux系统中，想要删除/58/jishu文件夹及其中的所有文件，应该使用（   ）</li></ol><p>A.rm /58/jishu</p><p>B.rm -f 58/jishu</p><p>C.rmdir -f /58/jishu</p><p>D.rmdir /58/jishu</p><ol start="2"><li>系统使用LRU页面淘汰算法，假设为进程分配了4个页面的空间，该进程已访问的页面序列为3,4,2,3,1,7,2,9,2,4 若进程要访问的下一页的页号为6，应该淘汰的页号是（  ）</li></ol><p>A.7</p><p>B.1</p><p>C.2</p><p>D.4</p><ol start="3"><li>春夏秋冬是老王的四个儿子，有一次有客人问起四兄弟的年龄，得到不同的回答。春说：“夏比秋小。”，夏说：“我比春小。”，秋说：“夏不是三哥。”，冬说：“我是大哥。”，憨厚的老王在旁补充道：“大儿子和三儿子撒谎呢，二儿子和小儿子说得对”。老王说的是实话，据此，按年龄从大到小的顺序，可以推断四兄弟的顺序依次为（  ）</li></ol><p>A.春、夏、秋、冬</p><p>B.春、夏、冬、秋</p><p>C.夏、春、秋、冬</p><p>D.</p><ol start="4"><li>计算学校中的所有学生的重名的次数，使用以下哪种数据结构最好？（  ）</li></ol><p>A. 堆</p><p>B. 哈希表</p><p>C. 数组</p><p>D. 链表</p><ol start="5"><li>前序遍历二叉树的结果为1,2,3,4,5。二叉树的有多少种可能的形状（  ）</li></ol><p>A. 41</p><p>B. 42</p><p>C. 43</p><p>D. 44</p><h1 id="问答题"><a href="#问答题" class="headerlink" title="问答题"></a>问答题</h1><ol><li>有n+1个不同的整数（a1,a2,…,an,m），假设有一个乱序的整数序列，其中a1,a2,…,an分别出现了两次，m出现一次，需要找出出现一次的m，给出查找的思路，要求时间和空间复杂度越小越好。</li></ol><ol start="2"><li>程序员小王，小李在一起讨论公司系统订单表的设计方案，但就订单的ID的生成方式产生了不同的想法，小王说订单ID是主键，可以通过数据库的数值型自增字段去实现，这样很简单，而小李却有不同的想法，他说，如果使用数据库的自增字段去实现，那么外部人员就很容易通过订单ID的变化去推测公司一天有多少订单，造成商业机密的泄露，所以应该使用UUID的方法生成唯一的字符串ID。对此你有什么好的想法，请阐述方案和理由。</li></ol><h1 id="编程题"><a href="#编程题" class="headerlink" title="编程题"></a>编程题</h1><p>1.返回已排序数组中的第一个大于或等于给定数字的元素的位置。</p><p>例如数组[1，2，3，5，9]，给定数字3，则返回2；给定数字4，则返回3，如给出的数字大于数组中的最大值，则返回数组的长度。（java/C++/C实现）</p><ol start="2"><li>两个集合中存放的是一个数字区间，第一个集合存放了两个数字区间，第二个集合存放了一个区间，求出这两个区间的数学交集部分，例如{[1,7],[9,12]},{[6，10]}，返回的结果为{[6,7],[9,10]}。(java/C++/C实现)</li></ol><h1 id="应用题"><a href="#应用题" class="headerlink" title="应用题"></a>应用题</h1><p>每年的十一期间，都有来自全球各地的游客来北京旅游，假设在北京所有的车站出入口都安装了监控的机器，每名旅客通过时，可以获得旅客的身高数据，165代表身高1.65米。预计每天的旅客人数在1亿多，现在需要统计以下信息。</p><p>1.每天所有的旅客的平均身高？（假设不能使用64位long，只能使用32位int的条件下，直接计算所有人数的身高和会溢出）。</p><p>2.身高较高的前20%的滤旅客身高是多少？</p><p>请给出设计方案。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;2018秋招58同城-技术后端类笔试题(部分)&lt;/p&gt;
+&lt;h1 id=&quot;选择题&quot;&gt;&lt;a href=&quot;#选择题&quot; class=&quot;headerlink&quot; title=&quot;选择题&quot;&gt;&lt;/a&gt;选择题&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;Linux系统中，想要删除/58/jishu文件夹及其中的
+      
+    
+    </summary>
+    
+    
+      <category term="DataMining" scheme="http://www.jianwu925.com/tags/DataMining/"/>
+    
+  </entry>
   
   <entry>
     <title>17个Python实用技巧</title>
