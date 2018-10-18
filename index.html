@@ -184,6 +184,159 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-2018bilibili秋招算法策略岗笔试题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/18/2018bilibili秋招算法策略岗笔试题/">2018bilibili秋招算法策略岗笔试题</a>
+    </h1>
+  
+
+        
+        <a href="/2018/10/18/2018bilibili秋招算法策略岗笔试题/" class="archive-article-date">
+  	<time datetime="2018-10-18T13:21:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-10-18</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>算法/策略岗位笔试题 2018年10月18日</p>
+<p>3道编程题  1道应用问答题</p>
+<h1 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h1><p><img src="/2018/10/18/2018bilibili秋招算法策略岗笔试题/1-1.png" alt=""></p>
+<p><img src="/2018/10/18/2018bilibili秋招算法策略岗笔试题/1-2.png" alt=""></p>
+<pre><code>`#include &lt;iostream&gt;
+
+using namespace std; 
+
+int gold_num(int ans[][2],int m,int*ans_n){
+    int count=0;
+    for(int i=0;i&lt;m;i++){
+        int a=ans_n[ans[i][0]-1];
+        int b=ans_n[ans[i][0]+1];
+        int c=ans_n[ans[i][1]-1];
+        if((a&gt;0) &amp;&amp; (b&gt;0) &amp;&amp; (c&gt;0) &amp;&amp; (a+b&gt;c) &amp;&amp; (a+c&gt;b) &amp;&amp; (b+c&gt;a)){
+            count+=1;
+        }
+    }
+    return count;
+}
+
+
+int main(){
+    int n;
+    cin &gt;&gt; n;
+    int ans_n[n];        
+    for (int i=0;i &lt; n;i++)
+    {
+          cin&gt;&gt;ans_n[i];    
+    }
+    int m;
+    cin &gt;&gt; m;
+    int ans[m][2];
+    for (int i=0;i&lt;m;i++)
+    {
+        for (int j=0;j &lt; 2;j++){
+             cin &gt;&gt; ans[i][j];            
+        }   
+
+    }
+    int num=gold_num(ans,m,ans_n);
+    cout&lt;&lt;num&lt;&lt;endl;
+    return 0;
+}
+</code></pre><p>`</p>
+<h1 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h1><p><img src="/2018/10/18/2018bilibili秋招算法策略岗笔试题/2-1.png" alt=""><br><img src="/2018/10/18/2018bilibili秋招算法策略岗笔试题/2-2.png" alt=""><br><img src="/2018/10/18/2018bilibili秋招算法策略岗笔试题/2-answer.png" alt=""></p>
+<h1 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h1><p><img src="/2018/10/18/2018bilibili秋招算法策略岗笔试题/3-1.png" alt=""><br><img src="/2018/10/18/2018bilibili秋招算法策略岗笔试题/3-2.png" alt=""></p>
+<pre><code>`import sys
+from math import floor
+def is_number(x):
+    try:
+        int(x)
+        return True
+    except Exception as e:
+        return False
+
+def reverseLinkedList():
+    nums=list(sys.stdin.readline().strip(&apos;,&apos;))
+    nums=[n for n in nums if is_number(n)]
+    res=[]
+    i=0
+    if len(nums)&lt;2:
+        return list(nums)
+    if len(nums)%2==0:
+        while i&lt;floor(len(nums)/2):
+            res.append(nums[i])
+            res.append(nums[len(nums)-1-i])
+            i+=1
+    else:
+        while i&lt;floor(len(nums)/2):
+            res.append(nums[i])
+            res.append(nums[len(nums)-1-i])
+            i+=1
+        res.append(nums[i])
+    return res
+
+res=reverseLinkedList()
+print(&apos;,&apos;.join(res))`
+</code></pre><h1 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h1><p><img src="/2018/10/18/2018bilibili秋招算法策略岗笔试题/4-1.png" alt=""></p>
+
+		
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Programming</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/10/18/2018bilibili秋招算法策略岗笔试题/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-2018秋招58笔试题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -948,89 +1101,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2018/08/29/经验感悟/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-彷徨时瞅一眼" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/08/28/彷徨时瞅一眼/">彷徨时瞅一眼</a>
-    </h1>
-  
-
-        
-        <a href="/2018/08/28/彷徨时瞅一眼/" class="archive-article-date">
-  	<time datetime="2018-08-28T13:05:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-28</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>引导语：人生路上不如意十常八九，遇到挫折时常常情绪低落，所以，当你举棋不定时，不防问问自己，这么做，将来会后悔吗？用今天的努力让明天没有遗憾!人生格言:思路决定出路,人生在于奋斗。</p>
-<ol>
-<li>成功的人，就是那种能用别人扔向他的石头来铺设路基的人。</li>
-<li>批评你的人是你今天的敌人，明天的朋友；吹捧你的人是你今天的朋友，明天的敌人。</li>
-<li>Nothing is impossible、只要选择了目标，不要再想太远，每天脚踏实地，风雨兼程。生命不息，战斗不止。</li>
-<li>你和你的朋友会一起在将来打造一个可能很辉煌的事业。很好听是吗？记住，你们都要努力。</li>
-<li>很多事情当你再回忆时会发现其实没什么。所以，不管当时你多么生气都告诉自己不必这样，你会发现其实真的不必。</li>
-</ol>
-        
-          <a class="article-more-a" href="/2018/08/28/彷徨时瞅一眼/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Note</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/08/28/彷徨时瞅一眼/">展开全文 >></a>
         </p>
       
 
