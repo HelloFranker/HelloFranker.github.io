@@ -17,7 +17,7 @@
 <meta property="og:description" content="2018秋招58同城-技术后端类笔试题(部分) 选择题1.Linux系统中，想要删除/58/jishu文件夹及其中的所有文件，应该使用（   ）  A.rm /58/jishu  B.rm -f 58/jishu  C.rmdir -f /58/jishu  D.rmdir /58/jishu">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://segmentfault.com/img/bVVulC?w=1021&h=346">
-<meta property="og:updated_time" content="2018-10-23T14:58:05.751Z">
+<meta property="og:updated_time" content="2018-10-23T15:20:06.063Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="2018秋招58笔试题">
 <meta name="twitter:description" content="2018秋招58同城-技术后端类笔试题(部分) 选择题1.Linux系统中，想要删除/58/jishu文件夹及其中的所有文件，应该使用（   ）  A.rm /58/jishu  B.rm -f 58/jishu  C.rmdir -f /58/jishu  D.rmdir /58/jishu">
@@ -247,13 +247,18 @@
 </ol>
 <ol start="2">
 <li>程序员小王，小李在一起讨论公司系统订单表的设计方案，但就订单的ID的生成方式产生了不同的想法，小王说订单ID是主键，可以通过数据库的数值型自增字段去实现，这样很简单，而小李却有不同的想法，他说，如果使用数据库的自增字段去实现，那么外部人员就很容易通过订单ID的变化去推测公司一天有多少订单，造成商业机密的泄露，所以应该使用UUID的方法生成唯一的字符串ID。对此你有什么好的想法，请阐述方案和理由。</li>
-<li><p> `<br> 使用数值型自增字段实现的方案，需要存储的空间小，进行insert和update操作时性能比UUID性能好，支持通过函数获取最新的值，但如果有合并表的操作，很可能会出现主键重复的情况。</p>
-<p> 使用UUID时，安全性高，在数据迁移，系统数据合并，或者在数据库变更情况下，可以保持数据库的稳定，但是查询效率低。存储空间较大，且不可读。</p>
-<p> 可以使用snowflake算法进行ID生成，兼具性能、安全、稳定等多方面的优势。</p>
-<p> `</p>
-</li>
 </ol>
-<p><img src="https://segmentfault.com/img/bVVulC?w=1021&amp;h=346" alt=""></p>
+<hr>
+<pre><code>`
+#(1)使用数值型自增字段实现的方案，需要存储的空间小，
+#   进行insert和update操作时性能比UUID性能好，支持通过函数获取最新的值，
+#   但如果有合并表的操作，很可能会出现主键重复的情况。
+#(2)使用UUID时，安全性高，
+#  在数据迁移，系统数据合并，或者在数据库变更情况下，可以保持数据库的稳定，
+#  但是查询效率低。存储空间较大，且不可读。
+#(3)可以使用snowflake算法进行ID生成，兼具性能、安全、稳定等多方面的优势。
+`
+</code></pre><p><img src="https://segmentfault.com/img/bVVulC?w=1021&amp;h=346" alt=""></p>
 <ol start="3">
 <li>在一个含有16核的电脑中处理，使用两个进程处理m–操作，各执行100次,最终的m取值范围是什么？</li>
 </ol>
@@ -288,7 +293,9 @@ if __name__ == &quot;__main__&quot;:
     index = find_index(l, num, left=0, right=len(l))
     print(index)
 </code></pre><ol start="2">
-<li><p>两个集合中存放的是一个数字区间，第一个集合存放了两个数字区间，第二个集合存放了一个区间，求出这两个区间的数学交集部分，例如{[1,7],[9,12]},{[6，10]}，返回的结果为{[6,7],[9,10]}。(java/C++/C实现)</p>
+<li>两个集合中存放的是一个数字区间，第一个集合存放了两个数字区间，第二个集合存放了一个区间，求出这两个区间的数学交集部分，例如{[1,7],[9,12]},{[6，10]}，返回的结果为{[6,7],[9,10]}。(java/C++/C实现)</li>
+</ol>
+<p>`</p>
 <pre><code># 两个集合中存放的是一个数字区间，第一个集合存放了两个数字区间，第二个集合存放了一个区间，
 # 求出这两个区间的数学交集部分，例如{[1,7],[9,12]},{[6，10]}，
 # 返回的结果为{[6,7],[9,10]}。(java/C++/C实现)
@@ -340,8 +347,7 @@ if __name__==&quot;__main__&quot;:
     set2=set(((6,10),))
     res_set=cross_set(set1,set2)
     print(res_set)
-</code></pre></li>
-</ol>
+</code></pre><p>`</p>
 <h1 id="应用题"><a href="#应用题" class="headerlink" title="应用题"></a>应用题</h1><p>每年的十一期间，都有来自全球各地的游客来北京旅游，假设在北京所有的车站出入口都安装了监控的机器，每名旅客通过时，可以获得旅客的身高数据，165代表身高1.65米。预计每天的旅客人数在1亿多，现在需要统计以下信息。</p>
 <p>1.每天所有的旅客的平均身高？（假设不能使用64位long，只能使用32位int的条件下，直接计算所有人数的身高和会溢出）。</p>
 <p>2.身高较高的前20%的滤旅客身高是多少？</p>
@@ -640,11 +646,11 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Programming</a>
+                <a href="javascript:void(0)" class="js-tag color1">DataMining</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">DataMining</a>
+                <a href="javascript:void(0)" class="js-tag color2">Programming</a>
               </li>
              
               <li class="article-tag-list-item">
