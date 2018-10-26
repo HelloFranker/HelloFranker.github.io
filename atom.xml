@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwu925.com/"/>
-  <updated>2018-10-18T13:46:14.682Z</updated>
+  <updated>2018-10-26T14:22:28.312Z</updated>
   <id>http://www.jianwu925.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SQL练习题</title>
+    <link href="http://www.jianwu925.com/2018/10/26/SQL%E7%BB%83%E4%B9%A0%E9%A2%98/"/>
+    <id>http://www.jianwu925.com/2018/10/26/SQL练习题/</id>
+    <published>2018-10-26T13:57:41.000Z</published>
+    <updated>2018-10-26T14:22:28.312Z</updated>
+    
+    <content type="html"><![CDATA[<p>主要考察SQL考点：</p><ol><li>表连接join、左连接left join、count统计、where条件判断</li><li>子查询(嵌套select)</li><li>聚合group by、IFNULL(var，value)，如果var为NULL，则赋值为value，order by排序</li></ol><a id="more"></a><h1 id="第一道题"><a href="#第一道题" class="headerlink" title="第一道题"></a>第一道题</h1><p>题目描述：</p><p>有3张表，分别存放用户信息，已知uid是每个用户的唯一身份标识字段，同一用户在三个数据表中的uid值相同。表名A的表存放的是每个人的积分信息，该表包含两列数据：uid, score；<br>表名B的表存放的是每个用户的呼叫次数信息，该表包含两列数据：uid, order_cnt；<br>表名C的表存放的是每个用户的投诉次数信息，该表包含两列数据：uid, complaint_cnt。<br>每个用户可能存在于其中的一个或者两个或者全部表中。</p><p>解题要求：</p><p>1）写出SQL语句，统计出有多少用户满足以下三个条件：积分&gt;=80分、呼叫数&gt;=1次并且从未投诉。<br>输出列变量的名称为：rider_cnt </p><p>2）所有在线SQL编程中，可以用 union 、left join 、case when 等语法,<br>不能用 右链接 、全连接、row_number() 、 rank()  </p><p>输入<br>三张表A、B、C</p><p>输出<br>按格式要求‍</p><p>备注：</p><p>1、答案中正常写SQL select出题目要求的列即可，不用读取任何输入输出；</p><p>2、如果是select a.name，则输出的最终列名是a.name，而不是name，需要as。</p><p>样例输入</p><pre><code>create table A(uid int primary key not null,score int);insert into A(uid,score) values(10001,332);insert into A(uid,score) values(10002,79);insert into A(uid,score) values(10003,78);create table B(uid int primary key not null,order_cnt int);insert into B(uid,order_cnt) values(10001,56);insert into B(uid,order_cnt) values(10002,23);insert into B(uid,order_cnt) values(10003,12);insert into B(uid,order_cnt) values(10004,5);create table C(uid int primary key not null,complaint_cnt int);insert into C(uid,complaint_cnt) values(10001,1);insert into C(uid,complaint_cnt) values(10003,2);`</code></pre><p>样例输出</p><pre><code>rider_cnt0</code></pre><p><strong>个人答案：（基于Mysql）</strong></p><pre><code>/*写出SQL语句，统计出有多少用户满足以下三个条件：积分&gt;=80分、呼叫数&gt;=1次并且从未投诉。 输出列变量的名称为：rider_cnt*/select count(A.uid) as rider_cnt  from A join B on A.uid=B.uidwhere A.score&gt;=80 and B.order_cnt&gt;=1 and A.uid not in (select C.uid from C where C.complaint_cnt&gt;0);</code></pre><hr><h1 id="第二道题"><a href="#第二道题" class="headerlink" title="第二道题"></a>第二道题</h1><p>题目描述：</p><p>假设有一个滴滴订单数据表，表名为 hitch_riders ，表中字段和数据示例如下：</p><p>date, order_id, driver_id, passenger_id</p><p>2017-10-04, 235154354, 6546547, 8977435</p><p>其中order_id是滴滴的订单，driver_id、passenger_id分别是司机、乘客ID。<br>已知每个用户只有一个唯一ID，如果他既是滴滴的司机，又是滴滴的乘客，那么他的passenger_id和driver_id相同。</p><p>解题要求：</p><p>1）请写出一段SQL，根据该表统计有多少滴滴司机同时也是滴滴的乘客？ 输出列变量的名称为：rider_cnt </p><p>2）所有在线SQL编程中，可以用 union 、left join 、case when 等语法,<br>不能用 右链接 、全连接、row_number() 、 rank()  </p><p>输入：<br>hitch_riders 表</p><p>输出:<br>按格式要求<br>‍<br>备注：</p><p>1、答案中正常写SQL select出题目要求的列即可，不用读取任何输入输出；</p><p>2、如果是select a.name，则输出的最终列名是a.name，而不是name，需要as。</p><p>样例输入：</p><pre><code>create table hitch_riders(date varchar(30), order_id int, driver_id int, passenger_id int );insert into hitch_riders(date, order_id, driver_id, passenger_id) values(&apos;2018-08-01&apos;,100001, 1, 1);insert into hitch_riders(date, order_id, driver_id, passenger_id) values(&apos;2018-08-02&apos;,100002, 2, 7);insert into hitch_riders(date, order_id, driver_id, passenger_id) values(&apos;2018-08-03&apos;,100003, 3, 7);insert into hitch_riders(date, order_id, driver_id, passenger_id) values(&apos;2018-08-01&apos;,100004, 4, 8);insert into hitch_riders(date, order_id, driver_id, passenger_id) values(&apos;2018-08-04&apos;,100005, 5, 9);insert into hitch_riders(date, order_id, driver_id, passenger_id) values(&apos;2018-08-01&apos;,100006, 7, 2);</code></pre><p>样例输出：</p><pre><code>rider_cnt3</code></pre><p><strong>个人答案（基于mysql）</strong>:</p><pre><code>/*根据该表统计有多少滴滴司机同时也是滴滴的乘客, 输出列变量的名称为：rider_cnt */select count(distinct driver_id)  as rider_cnt from hitch_riders where driver_id in (select passenger_id from hitch_riders);</code></pre><hr><h1 id="第三道题"><a href="#第三道题" class="headerlink" title="第三道题"></a>第三道题</h1><p>题目描述：</p><p>有两张数据表，其中一张系统api接口字典表，表名为api_dic，含有两列：API_ID，API_NAME 。<br>第二张表为每天系统接口使用表，表名为api_visit，含有三列： DateTime （时间戳，str类型，格式例如：2018-01-01 20:22:11），API_ID，Customer_ID，里面暂时只存放了2018-01-01这天的访问信息。该表的数据是用户每秒使用API的记录。</p><p>解题要求：<br>1）请写出一段SQL，给出这天每个API的使用用户数。<br>已知这天不是所有API(接口)都被使用了，但是报表要求所有API都要列出来，<br>如果某个API_ID没有人使用，则显示使用用户数为0。</p><p>2）输出两列，输出列变量的名称分别为：API_NAME、VISIT_NUM ；且输出结果按API_NAME升序排序。</p><p>3）所有在线SQL编程中，可以用 union 、left join 、case when 等语法,<br>不能用 右链接 、全连接、row_number() 、 rank()   </p><p>输入：<br>api_dic表、api_visit表</p><p>输出：<br>按格式要求‍<br>备注：</p><p>1、答案中正常写SQL select出题目要求的列即可，不用读取任何输入输出；</p><p>2、如果是select a.name，则输出的最终列名是a.name，而不是name，需要as。</p><p>样例输入</p><pre><code>create table api_dic( API_ID  int, API_NAME varchar(30) );insert into api_dic(API_ID, API_NAME) values(100001, &apos;interface1&apos;);insert into api_dic(API_ID, API_NAME) values(100002, &apos;interface2&apos;);insert into api_dic(API_ID, API_NAME) values(100003, &apos;interface3&apos;);insert into api_dic(API_ID, API_NAME) values(100004, &apos;interface4&apos;);create table api_visit(DateTime varchar(30), API_ID  int, Customer_ID int );insert into api_visit(DateTime, API_ID, Customer_ID) values(&apos;2018-01-01 01:23:22&apos;,100001, 1);insert into api_visit(DateTime, API_ID, Customer_ID) values(&apos;2018-01-01 01:25:22&apos;,100002, 1);insert into api_visit(DateTime, API_ID, Customer_ID) values(&apos;2018-01-01 01:23:22&apos;,100001, 2);</code></pre><p>样例输出：</p><pre><code>API_NAME    VISIT_NUMinterface1    2interface2    1interface3    0interface4    0</code></pre><p><strong>个人答案</strong></p><pre><code>/*给出这天每个API的使用用户数。API_NAME、VISIT_NUM ；且输出结果按API_NAME升序排序。*/select api_dic.API_NAME,ifnull(VISIT_NUM,0) VISIT_NUM from api_dicleft join(select API_NAME,count(api_visit.Customer_ID)as VISIT_NUM from api_dic left join api_visit on api_dic.API_ID =api_visit.API_IDgroup by api_visit.API_ID) as tmpon api_dic.API_NAME=tmp.API_NAME;</code></pre><blockquote><p><a href="http://www.w3school.com.cn/sql/index.asp" title="SQL 教程" target="_blank" rel="noopener">http://www.w3school.com.cn/sql/index.asp</a><br><a href="https://blog.csdn.net/u012162613/article/details/45830655" title="wepon博客" target="_blank" rel="noopener">https://blog.csdn.net/u012162613/article/details/45830655</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要考察SQL考点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;表连接join、左连接left join、count统计、where条件判断&lt;/li&gt;
+&lt;li&gt;子查询(嵌套select)&lt;/li&gt;
+&lt;li&gt;聚合group by、IFNULL(var，value)，如果var为NULL，则赋值为value，order by排序&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+    
+      <category term="programming" scheme="http://www.jianwu925.com/tags/programming/"/>
+    
+  </entry>
   
   <entry>
     <title>2018bilibili秋招算法策略岗笔试题</title>
